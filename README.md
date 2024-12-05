@@ -1,0 +1,4 @@
+## PROJETO EXPLORAÇÃO E ANÁLISE DE DADOS DE VENDAS
+Nesse projeto estaremos trabalhando com conjunto de dados da ***Contoso Corporation***, que é uma empresa fictícia da **Microsoft**, no qual eles disponibilizaram um Banco de dados, que simula uma multinacional no setor de varejo ([link](https://www.microsoft.com/en-us/download/details.aspx?id=18279)). Seu banco de dados contém informações relacionadas a vendas, produtos, clientes e transações financeiras, oferecendo um cenário realista para explorar técnicas de análise de dados e gerar insights de negócios.
+Neste notebook, realizaremos uma análise exploratória das vendas da Contoso, utilizando SQL para consultar e combinar tabelas, a fim de extrair informações valiosas e compreender melhor os padrões de vendas e o comportamento dos clientes.
+
