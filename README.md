@@ -1,4 +1,4 @@
-# Projeto: INSIGHTS E SEGMENTAÇÃO DE CLIENTES - MODELO K-MEANS
+# Projeto: INSIGHTS E SEGMENTAÇÃO DE CLIENTES - MODELO KMEANS
 ## Descrição Geral
 Nesse projeto estaremos trabalhando com conjunto de dados da ***Contoso Corporation***, que é uma empresa fictícia da **Microsoft**, no qual eles disponibilizaram um Banco de dados, que simula uma multinacional no setor de varejo ([link](https://www.microsoft.com/en-us/download/details.aspx?id=18279)). Seu banco de dados contém informações relacionadas a vendas, produtos, clientes e transações financeiras, oferecendo um cenário realista para explorar técnicas de análise de dados e gerar insights de negócios.
 OEste projeto tem como objetivo realizar uma segmentação de clientes por meio da análise de clusters, utilizando técnicas estatísticas e algoritmos de Machine Learning. A análise foi conduzida com base nos dados relacionados a venda e características demográficas de clientes, buncando gerar insights que possam auxiliar em estratégias de negócios, como ofertas personalizadas e melhoria na experiência do cliente.
@@ -100,7 +100,7 @@ Os dados utilizados para este projeto contêm informações sobre as vendas e o 
 ## Como Reproduzir
 1. Clone o repositório:
    ```bash
-   git clone [<URL_DO_REPOSITORIO>](https://github.com/thiagonoobre/Customer-Insights-Segmentation-KMeans.git)
+   git clone https://github.com/thiagonoobre/Customer-Insights-Segmentation-KMeans.git
    ```
 2. Execute o notebook `Customer-Insights-Segmentation-KMeans.ipynb` para reproduzir a análise.
 
