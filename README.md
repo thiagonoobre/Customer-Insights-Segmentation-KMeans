@@ -56,7 +56,7 @@ Os dados utilizados para este projeto contêm informações sobre as vendas e o 
 
 ## Etapas do Projeto
 
-### 1. **Análise Explorativa**
+### 1. **Exploração de Dados**
 - Estatísticas descritivas foram geradas para identificar padrões gerais nos dados.
 - Um **boxplot** foi utilizado para identificar outliers em variáveis como `ReceitaTotal` e `FrequenciaCompra`.
 
@@ -111,4 +111,5 @@ Sinta-se à vontade para abrir uma issue ou enviar um pull request caso deseje c
 ---
 
 **Autor**: Thiago Nobrega 
-**Linkedin**: [<link>]([https://github.com/thiagonoobre/Customer-Insights-Segmentation-KMeans.git](https://www.linkedin.com/in/thiagosnobrega/))
+
+**Linkedin**: ([link](https://www.linkedin.com/in/thiagosnobrega/))
