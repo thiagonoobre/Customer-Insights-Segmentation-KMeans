@@ -27,12 +27,6 @@ Os dados utilizados para este projeto contêm informações sobre as vendas e o 
 - **UnitPrice**: Preço unitário
 
 ### 2. **Tabela - DimCustomer**:
-- **YearlyIncome**: Renda anual do cliente.
-- **Education**: Grau de instrução.
-- **Occupation**: Ocupação.
-- **NumberCarsOwned**: Número de carros possuídos.
-- **Outras variáveis**: Estado civil, gênero, e outras informações relevantes.
-
 - **CustomerKey**: Id do Cliente
 - **GeographyKey**: Id da Geografia
 - **CustomerLabel**: Rótulo do Cliente
