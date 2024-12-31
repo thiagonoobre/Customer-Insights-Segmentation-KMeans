@@ -7,6 +7,11 @@ OEste projeto tem como objetivo realizar uma segmentação de clientes por meio 
 Os dados utilizados para este projeto contêm informações sobre as vendas e o perfis demográficos dos clientes. As tabelas principais incluem:
 
 ### 1. **Tabela - FactOnlineSales**:
+```sql
+SELECT COLUMN_NAME
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'FactOnlineSales'
+```
 - **OnlineSalesKey**: Id das vendas
 - **DateKey**: Data da venda
 - **StoreKey**: Id da Loja
@@ -27,6 +32,12 @@ Os dados utilizados para este projeto contêm informações sobre as vendas e o 
 - **UnitPrice**: Preço unitário
 
 ### 2. **Tabela - DimCustomer**:
+
+```sql
+SELECT COLUMN_NAME
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'DimCustomer'
+```
 - **CustomerKey**: Id do Cliente
 - **GeographyKey**: Id da Geografia
 - **CustomerLabel**: Rótulo do Cliente
@@ -59,6 +70,8 @@ Os dados utilizados para este projeto contêm informações sobre as vendas e o 
 ### 1. **Exploração de Dados**
 - Estatísticas descritivas foram geradas para identificar padrões gerais nos dados.
 - Um **boxplot** foi utilizado para identificar outliers em variáveis como `ReceitaTotal` e `FrequenciaCompra`.
+![](https://raw.githubusercontent.com/thiagonoobre/Customer-Insights-Segmentation-KMeans/refs/heads/main/Imagens/OutliersReceita.png)
+![](https://raw.githubusercontent.com/thiagonoobre/Customer-Insights-Segmentation-KMeans/refs/heads/main/Imagens/OutliersFrequencia.png)
 
 ### 2. **Tratamento de Outliers**
 - Foram analisados separadamente os outliers superiores em receita total e frequência de compra.
@@ -72,10 +85,13 @@ Os dados utilizados para este projeto contêm informações sobre as vendas e o 
 ### 4. **Análise de Clusters**
 - O algoritmo **KMeans** foi utilizado para identificar grupos de clientes.
 - O número ideal de clusters foi determinado com base no método do cotovelo.
+![](https://raw.githubusercontent.com/thiagonoobre/Customer-Insights-Segmentation-KMeans/refs/heads/main/Imagens/cotovelo.png)
+
 
 ### 5. **Visualização e Interpretação**
 - Pairplots foram utilizados para visualizar os clusters identificados.
 - Insights sobre os perfis dos grupos foram gerados.
+![](https://raw.githubusercontent.com/thiagonoobre/Customer-Insights-Segmentation-KMeans/refs/heads/main/Imagens/cluster04.png)
 
 ## Resultados e Insights
 - **Clientes Valiosos**:
