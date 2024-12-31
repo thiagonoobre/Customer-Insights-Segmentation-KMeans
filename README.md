@@ -91,7 +91,7 @@ WHERE TABLE_NAME = 'DimCustomer'
 ### 5. **Visualização e Interpretação**
 - Pairplots foram utilizados para visualizar os clusters identificados.
 - Insights sobre os perfis dos grupos foram gerados.
-![](https://raw.githubusercontent.com/thiagonoobre/Customer-Insights-Segmentation-KMeans/refs/heads/main/Imagens/cluster04.png)
+![](https://raw.githubusercontent.com/thiagonoobre/Customer-Insights-Segmentation-KMeans/refs/heads/main/Imagens/cluster04_resultadofinal.png)
 
 ## Resultados e Insights
 - **Clientes Valiosos**:
